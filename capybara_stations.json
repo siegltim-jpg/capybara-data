@@ -1,0 +1,70 @@
+{
+  "stationen": [
+    {
+      "name": "Vattenfall InCharge Aschersleben",
+      "betreiber": "Vattenfall InCharge",
+      "lat": 51.7589,
+      "lng": 11.4572,
+      "ladeart": "DC",
+      "maxKW": 180,
+      "anschluesse": 4,
+      "adresse": "Heinrichstraße 22",
+      "stadt": "Aschersleben"
+    },
+    {
+      "name": "Raststätte Plötzetal Ost",
+      "betreiber": "E.ON Drive Infrastructure",
+      "lat": 51.6582,
+      "lng": 11.8541,
+      "ladeart": "DC",
+      "maxKW": 100,
+      "anschluesse": 2,
+      "adresse": "A14",
+      "stadt": "Könnern"
+    },
+    {
+      "name": "Raststätte Plötzetal West",
+      "betreiber": "E.ON Drive Infrastructure",
+      "lat": 51.6578,
+      "lng": 11.8535,
+      "ladeart": "DC",
+      "maxKW": 100,
+      "anschluesse": 2,
+      "adresse": "A14",
+      "stadt": "Könnern"
+    },
+    {
+      "name": "EWE Go Rosenfelder Straße",
+      "betreiber": "EWE Go",
+      "lat": 51.4812,
+      "lng": 11.9701,
+      "ladeart": "DC",
+      "maxKW": 150,
+      "anschluesse": 1,
+      "adresse": "Rosenfelder Straße 11",
+      "stadt": "Halle (Saale)"
+    },
+    {
+      "name": "Aral pulse Geltestraße",
+      "betreiber": "Aral pulse",
+      "lat": 51.4198,
+      "lng": 12.0541,
+      "ladeart": "DC",
+      "maxKW": 300,
+      "anschluesse": 4,
+      "adresse": "Geltestraße 1",
+      "stadt": "Kabelsketal"
+    },
+    {
+      "name": "Aral pulse Sandersdorf-Brehna",
+      "betreiber": "Aral pulse",
+      "lat": 51.6231,
+      "lng": 12.2198,
+      "ladeart": "DC",
+      "maxKW": 300,
+      "anschluesse": 6,
+      "adresse": "An der B 100 32",
+      "stadt": "Sandersdorf-Brehna"
+    }
+  ]
+}
