@@ -6,7 +6,7 @@
       "lat": 51.7589,
       "lng": 11.4572,
       "ladeart": "DC",
-      "maxKW": 180,
+      "maxKW": 180.0,
       "anschluesse": "4",
       "adresse": "Heinrichstraße 22",
       "stadt": "Aschersleben"
@@ -17,7 +17,7 @@
       "lat": 51.6582,
       "lng": 11.8541,
       "ladeart": "DC",
-      "maxKW": 100,
+      "maxKW": 100.0,
       "anschluesse": "2",
       "adresse": "A14",
       "stadt": "Könnern"
@@ -28,7 +28,7 @@
       "lat": 51.6578,
       "lng": 11.8535,
       "ladeart": "DC",
-      "maxKW": 100,
+      "maxKW": 100.0,
       "anschluesse": "2",
       "adresse": "A14",
       "stadt": "Könnern"
@@ -39,7 +39,7 @@
       "lat": 51.4812,
       "lng": 11.9701,
       "ladeart": "DC",
-      "maxKW": 150,
+      "maxKW": 150.0,
       "anschluesse": "1",
       "adresse": "Rosenfelder Straße 11",
       "stadt": "Halle (Saale)"
@@ -50,7 +50,7 @@
       "lat": 51.4198,
       "lng": 12.0541,
       "ladeart": "DC",
-      "maxKW": 300,
+      "maxKW": 300.0,
       "anschluesse": "4",
       "adresse": "Geltestraße 1",
       "stadt": "Kabelsketal"
@@ -61,7 +61,7 @@
       "lat": 51.6231,
       "lng": 12.2198,
       "ladeart": "DC",
-      "maxKW": 300,
+      "maxKW": 300.0,
       "anschluesse": "6",
       "adresse": "An der B 100 32",
       "stadt": "Sandersdorf-Brehna"
@@ -72,7 +72,7 @@
       "lat": 51.3477,
       "lng": 12.2634,
       "ladeart": "DC",
-      "maxKW": 300,
+      "maxKW": 300.0,
       "anschluesse": "4",
       "adresse": "Miltitzer Straße 13",
       "stadt": "Leipzig"
