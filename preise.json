@@ -1,0 +1,464 @@
+{
+  "version": "2026-04",
+  "betreiber": [
+    {
+      "name": "Aldi",
+      "aliases": ["Aldi Süd", "Aldi Nord", "ALDI"],
+      "adhoc": {"ac": 29, "dc": 44, "hpc": 47},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Nur während Öffnungszeiten"
+    },
+    {
+      "name": "Lidl",
+      "aliases": ["Lidl", "Schwarz-Gruppe"],
+      "adhoc": {"ac": 29, "dc": 44, "hpc": 47},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Nur während Öffnungszeiten"
+    },
+    {
+      "name": "Kaufland",
+      "aliases": ["Kaufland"],
+      "adhoc": {"ac": 29, "dc": 44, "hpc": 47},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Günstigere Preise mit Kaufland-App"
+    },
+    {
+      "name": "Aral Pulse",
+      "aliases": ["Aral", "Aral pulse", "BP Pulse", "bp pulse"],
+      "adhoc": {"ac": 59, "dc": 69, "hpc": 79},
+      "tarife": [
+        {"name": "Mit App/Karte AC", "preis": 54},
+        {"name": "Mit App/Karte DC", "preis": 59},
+        {"name": "Mit App/Karte HPC", "preis": 69}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ad-hoc Preise"
+    },
+    {
+      "name": "EnBW",
+      "aliases": ["EnBW", "EnBW mobility+", "EnBW HyperNetz", "EnBW (D)"],
+      "adhoc": {"ac": 79, "dc": 79, "hpc": 79},
+      "tarife": [
+        {"name": "Tarif S", "preis": 56},
+        {"name": "Tarif M", "preis": 46},
+        {"name": "Tarif L", "preis": 39}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ad-hoc Preis"
+    },
+    {
+      "name": "Ionity",
+      "aliases": ["IONITY", "Ionity GmbH"],
+      "adhoc": {"ac": null, "dc": 69, "hpc": 69},
+      "tarife": [
+        {"name": "Power Tarif (7,49€/Mo)", "preis": 49}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ad-hoc Preis"
+    },
+    {
+      "name": "Tesla Supercharger",
+      "aliases": ["Tesla", "Tesla Motors", "Supercharger", "Tesla (including non-tesla)"],
+      "adhoc": {"ac": null, "dc": 55, "hpc": 60},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Dynamische Preise je nach Standort & Uhrzeit (~40-55 ct). Überlastungsgebühr: 50 ct/min"
+    },
+    {
+      "name": "Allego",
+      "aliases": ["Allego", "Allego B.V.", "Allego BV"],
+      "adhoc": {"ac": 60, "dc": 70, "hpc": 73},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ad-hoc Preise"
+    },
+    {
+      "name": "Stadtwerke Leipzig",
+      "aliases": ["L.de", "Stadtwerke Leipzig", "Stadtwerke Leipzig SWL", "SWL"],
+      "adhoc": {"ac": 54, "dc": 64, "hpc": null},
+      "tarife": [
+        {"name": "Vorteilspreis AC", "preis": 45},
+        {"name": "Vorteilspreis DC", "preis": 55}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Regulärer Preis"
+    },
+    {
+      "name": "Hamburger Energiewerke",
+      "aliases": ["Hamburger Energiewerke", "HEnW", "Hamburger Energiewerke GmbH"],
+      "adhoc": {"ac": 59, "dc": 69, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "+2,06 € Zuschlag pro Ladevorgang via Direct Pay"
+    },
+    {
+      "name": "TankE",
+      "aliases": ["TankE", "TankE GmbH", "RheinEnergie"],
+      "adhoc": {"ac": 49, "dc": 59, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Blockiergebühr ab 4h (AC) / 1h (DC): 0,10 €/min"
+    },
+    {
+      "name": "Stadtwerke München",
+      "aliases": ["SWM", "Stadtwerke München", "Stadtwerke München GmbH", "M-Lade"],
+      "adhoc": {"ac": 49, "dc": 69, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Keine Grundgebühr, keine Blockiergebühr. 100% M-Ökostrom"
+    },
+    {
+      "name": "Mainova",
+      "aliases": ["Mainova", "Mainova AG"],
+      "adhoc": {"ac": 64, "dc": 76, "hpc": null},
+      "tarife": [
+        {"name": "TankE-App AC", "preis": 58},
+        {"name": "TankE-App DC", "preis": 70}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Mit TankE-App günstiger"
+    },
+    {
+      "name": "enercity",
+      "aliases": ["enercity", "enercity AG"],
+      "adhoc": {"ac": 52, "dc": 52, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Dynamischer Tarif: 37-67 ct je nach Börsenstrompreis"
+    },
+    {
+      "name": "SachsenEnergie",
+      "aliases": ["SachsenEnergie", "SachsenEnergie AG", "DREWAG", "ENSO"],
+      "adhoc": {"ac": 50, "dc": 50, "hpc": null},
+      "tarife": [
+        {"name": "Abo-Kunden", "preis": 45}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Einheitspreis AC+DC"
+    },
+    {
+      "name": "Stadtwerke Heidelberg",
+      "aliases": ["Stadtwerke Heidelberg", "Stadtwerke Heidelberg Energie GmbH"],
+      "adhoc": {"ac": 39, "dc": 39, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Einheitspreis AC+DC. Zählt zu günstigsten bundesweit"
+    },
+    {
+      "name": "MVV",
+      "aliases": ["MVV", "MVV Enamic", "MVV eMotion", "MVV Energie"],
+      "adhoc": {"ac": 59, "dc": 69, "hpc": null},
+      "tarife": [
+        {"name": "MVV-eigene Säulen AC", "preis": 46},
+        {"name": "MVV-eigene Säulen DC", "preis": 56}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": null
+    },
+    {
+      "name": "Stadtwerke Stuttgart",
+      "aliases": ["Stadtwerke Stuttgart", "SWS", "Stadtwerke Stuttgart GmbH"],
+      "adhoc": {"ac": 49, "dc": 59, "hpc": null},
+      "tarife": [
+        {"name": "Ökostromkunden AC", "preis": 39},
+        {"name": "Ökostromkunden DC", "preis": 49}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ab 01.01.2026"
+    },
+    {
+      "name": "Stadtwerke Düsseldorf",
+      "aliases": ["Stadtwerke Düsseldorf", "SWD", "Stadtwerke Düsseldorf AG"],
+      "adhoc": {"ac": 44, "dc": 56, "hpc": null},
+      "tarife": [
+        {"name": "Nachttarif DC (21-8 Uhr)", "preis": 46}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Nachttarif nur an 3 Schnellladeparks"
+    },
+    {
+      "name": "DEW21",
+      "aliases": ["DEW21", "Dortmunder Energie", "DEW"],
+      "adhoc": {"ac": 51, "dc": 61, "hpc": null},
+      "tarife": [
+        {"name": "Roaming AC", "preis": 61},
+        {"name": "Roaming DC", "preis": 86}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": null
+    },
+    {
+      "name": "N-ERGIE",
+      "aliases": ["N-ERGIE", "N-ERGIE Aktiengesellschaft", "LadeVerbundPlus"],
+      "adhoc": {"ac": 54, "dc": 64, "hpc": null},
+      "tarife": [
+        {"name": "App-Nutzer AC", "preis": 48},
+        {"name": "App-Nutzer DC", "preis": 58},
+        {"name": "N-ERGIE-Kunden AC", "preis": 42},
+        {"name": "N-ERGIE-Kunden DC", "preis": 52}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": null
+    },
+    {
+      "name": "SWB Bonn",
+      "aliases": ["SWB", "SWB Energie und Wasser", "Stadtwerke Bonn"],
+      "adhoc": {"ac": 62, "dc": 62, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "+0,59 € Startgebühr pro Ladevorgang"
+    },
+    {
+      "name": "Stadtwerke Münster",
+      "aliases": ["Stadtwerke Münster", "Stadtwerke Münster GmbH"],
+      "adhoc": {"ac": 47, "dc": 35, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "DC: 35 ct + Zeitgebühr 1-2 ct/min (6-22 Uhr). 100% Ökostrom"
+    },
+    {
+      "name": "Stadtwerke Augsburg",
+      "aliases": ["Stadtwerke Augsburg", "swa", "swa Augsburg"],
+      "adhoc": {"ac": 37, "dc": 44, "hpc": null},
+      "tarife": [
+        {"name": "Nachttarif AC (21-7 Uhr)", "preis": 35},
+        {"name": "Nachttarif DC (21-7 Uhr)", "preis": 42}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": null
+    },
+    {
+      "name": "REWAG",
+      "aliases": ["REWAG", "Regensburger Energie"],
+      "adhoc": {"ac": 40, "dc": 45, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ad-hoc via PayPal. ~1.000 Ladepunkte"
+    },
+    {
+      "name": "TEAG",
+      "aliases": ["TEAG", "TEAG Mobil", "Thüringer Energie"],
+      "adhoc": {"ac": 49, "dc": 49, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Einheitspreis AC+DC. 1.000+ Ladepunkte"
+    },
+    {
+      "name": "EVH Halle",
+      "aliases": ["EVH", "Energieversorgung Halle", "EVH GmbH", "Stadtwerke Halle", "SWH"],
+      "adhoc": {"ac": 48, "dc": null, "hpc": null},
+      "tarife": [
+        {"name": "EVH-Kunden", "preis": 42}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Grundgebühr Ladekarte: 5,95 €/Monat"
+    },
+    {
+      "name": "Shell Recharge",
+      "aliases": ["Shell", "Shell Recharge", "Shell EV"],
+      "adhoc": {"ac": 59, "dc": 59, "hpc": 59},
+      "tarife": [
+        {"name": "e-Deal (5,99€/Mo, -25%)", "preis": 44}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Dynamische Preise (44–59 ct je nach Börsenstrompreis). Ohne App: 79 ct + 0,35 € Transaktionsgebühr"
+    },
+    {
+      "name": "Fastned",
+      "aliases": ["Fastned", "Fastned B.V."],
+      "adhoc": {"ac": null, "dc": 69, "hpc": 69},
+      "tarife": [
+        {"name": "App mit Karte (-10%)", "preis": 62},
+        {"name": "Gold-Mitgliedschaft (11,99€/Mo)", "preis": 48}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Nur HPC/DC. Preissenkung ab 1. April 2026 (vorher 73 ct)"
+    },
+    {
+      "name": "TotalEnergies",
+      "aliases": ["TotalEnergies", "Total", "Total EV Charge", "Deutschlandnetz Total"],
+      "adhoc": {"ac": null, "dc": 79, "hpc": 79},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Keine einheitlichen Preise im Gesamtnetz. 79 ct/kWh an Deutschlandnetz-Schnellladestationen"
+    },
+    {
+      "name": "EWE Go",
+      "aliases": ["EWE Go", "EWE", "EWE Go GmbH"],
+      "adhoc": {"ac": 52, "dc": 52, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Einheitspreis AC+DC. Keine Grundgebühr, keine Blockiergebühr an eigenen Säulen. Roaming: 62 ct/kWh"
+    },
+    {
+      "name": "E.ON Drive",
+      "aliases": ["E.ON", "E.ON Drive", "EON Drive"],
+      "adhoc": {"ac": 54, "dc": 61, "hpc": 61},
+      "tarife": [
+        {"name": "Tarif S (7€/Mo, 10 kWh inkl.)", "preis": 54},
+        {"name": "Tarif M (52€/Mo, 75 kWh inkl.)", "preis": 52},
+        {"name": "Tarif L (119€/Mo, 175 kWh inkl.)", "preis": 68}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Flexibles Laden (ohne Tarif): AC 54 ct, DC 61 ct im E.ON-Netz. Roaming DC: 79 ct/kWh"
+    },
+    {
+      "name": "Vattenfall InCharge",
+      "aliases": ["Vattenfall", "InCharge", "Vattenfall InCharge"],
+      "adhoc": {"ac": 47, "dc": 49, "hpc": 44},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Fair Laden Tarif seit März 2026. DC 44–49 ct je nach Standort. Keine Registrierung, kein Abo, keine Blockiergebühr"
+    },
+    {
+      "name": "REWE / Penny",
+      "aliases": ["REWE", "Penny", "REWE Group"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Keine eigenen Preise – Betreiber auf Parkplätzen sind EnBW, Shell, Aral, TotalEnergies oder Electra. Preise entsprechend jeweiligem Betreiber."
+    },
+    {
+      "name": "IKEA",
+      "aliases": ["IKEA", "IKEA Deutschland", "Mer bei IKEA"],
+      "adhoc": {"ac": 49, "dc": 57, "hpc": 69},
+      "tarife": [
+        {"name": "IKEA Family AC (-20%)", "preis": 39},
+        {"name": "IKEA Family DC (-20%)", "preis": 46},
+        {"name": "IKEA Family HPC (-20%)", "preis": 55}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Betreiber: Mer. 20% Rabatt mit IKEA Family Card (kostenlos) über Mer Connect ME App. Rabatt auf 1.000 kWh/Jahr begrenzt. Nicht mehr kostenlos."
+    },
+    {
+      "name": "EDEKA",
+      "aliases": ["EDEKA", "Edeka", "Edeka Nord"],
+      "adhoc": {"ac": null, "dc": 51, "hpc": 51},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Betreiber: Vattenfall InCharge (44–49 ct) oder LichtBlick Quickcharge (51 ct + 0,69 € Servicegebühr/Ladevorgang). Preise je nach Standort unterschiedlich."
+    },
+    {
+      "name": "Netto",
+      "aliases": ["Netto", "Netto Marken-Discount"],
+      "adhoc": {"ac": null, "dc": 49, "hpc": 44},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Betreiber: Vattenfall InCharge. DC 44–49 ct je nach Standort. Keine Registrierung, kein Abo, keine Blockiergebühr."
+    },
+    {
+      "name": "Mer",
+      "aliases": ["Mer", "Mer Germany", "Mer Connect", "Grønn Kontakt"],
+      "adhoc": {"ac": 49, "dc": 69, "hpc": 79},
+      "tarife": [
+        {"name": "Registriert AC", "preis": 49},
+        {"name": "Registriert DC (50–75 kW)", "preis": 57},
+        {"name": "Registriert HPC (ab 76 kW)", "preis": 69}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Betreiber bei IKEA (mit IKEA Family -20%). Ad-hoc HPC 79 ct, DC 69 ct. Europäisches Netz."
+    },
+    {
+      "name": "Electra",
+      "aliases": ["Electra", "Electra Charging"],
+      "adhoc": {"ac": null, "dc": 49, "hpc": 49},
+      "tarife": [
+        {"name": "Abo (9,99€/Mo)", "preis": 39}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "HPC bis 400 kW. Ad-hoc 49 ct per App/Karte. Wächst stark bei REWE/Penny-Standorten. Reservierung möglich."
+    },
+    {
+      "name": "Pfalzwerke",
+      "aliases": ["Pfalzwerke", "Pfalzwerke AG"],
+      "adhoc": {"ac": 46, "dc": 58, "hpc": 58},
+      "tarife": [
+        {"name": "Abo-Tarif AC (3,99€/Mo)", "preis": 47},
+        {"name": "Abo-Tarif DC (3,99€/Mo)", "preis": 60}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ad-hoc: AC 46 ct + 0,05€/min ab 240 min; DC 58 ct + 0,10€/min ab 60 min. Top-8-Betreiber bundesweit, 2.500+ Ladepunkte."
+    },
+    {
+      "name": "Berliner Stadtwerke",
+      "aliases": ["Berliner Stadtwerke", "BSW", "Berlin Energie"],
+      "adhoc": {"ac": 49, "dc": 59, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Keine Blockiergebühr zwischen 22–6 Uhr seit Juli 2025."
+    },
+    {
+      "name": "Stadtwerke Wuppertal",
+      "aliases": ["WSW", "Stadtwerke Wuppertal", "WSW Energie & Wasser"],
+      "adhoc": {"ac": 35, "dc": 49, "hpc": 49},
+      "tarife": [
+        {"name": "Nachteulentarif AC (21–6 Uhr)", "preis": 30}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Preissenkung ab 1. Januar 2026. Einheitspreis DC+HPC 49 ct. Nachttarif AC nur 29,9 ct. Grundgebühr Ladekarte 5€/Mo + 15€ einmalig."
+    },
+    {
+      "name": "Comfortcharge",
+      "aliases": ["Comfortcharge", "Comfort Charge", "Telekom Ladesäule", "Deutsche Telekom Ladestation"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "100% Tochter der Deutschen Telekom AG. Reiner Infrastrukturbetreiber – kein eigener Tarif. Preis über Roaming-Anbieter (z.B. EnBW, Shell, EWE Go). Ad-hoc per Kreditkarte möglich. Säulen erkennbar an Telekom-Magenta."
+    },
+    {
+      "name": "Plugsurfing",
+      "aliases": ["Plugsurfing", "Plugsurfing GmbH"],
+      "adhoc": {"ac": 59, "dc": 79, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-07-01",
+      "hinweis": "Reiner Roaming-Anbieter, kein eigener Infrastrukturbetreiber. Gestaffelte Preise je nach Betreiber: Stufe 1 (Ionity, Lidl, Kaufland) AC 54/DC 68 ct. Stufe 2 (Standard) AC 59/DC 79 ct. Stufe 3 (EnBW, Aral, EWE Go) AC 79/DC 96 ct. Keine Grundgebühr. 215.000+ Ladepunkte."
+    }
+  ]
+}
