@@ -66,5 +66,16 @@
       "adresse": "An der B 100 32",
       "stadt": "Sandersdorf-Brehna"
     }
+    {
+      "name": "EWE Go Miltitzer Straße",
+      "betreiber": "EWE Go",
+      "lat": 51.3477,
+      "lng": 12.2634,
+      "ladeart": "DC",
+      "maxKW": 300,
+      "anschluesse": 4,
+      "adresse": "Miltitzer Straße 13",
+      "stadt": "Leipzig"
+    }
   ]
 }
