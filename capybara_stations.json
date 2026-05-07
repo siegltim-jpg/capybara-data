@@ -14,8 +14,8 @@
     {
       "name": "Raststätte Plötzetal Ost",
       "betreiber": "E.ON Drive Infrastructure",
-      "lat": 51.6582,
-      "lng": 11.8541,
+     "lat": 51.65597,
+      "lng": 11.82230,
       "ladeart": "DC",
       "maxKW": 100.0,
       "anschluesse": "2",
@@ -25,8 +25,8 @@
     {
       "name": "Raststätte Plötzetal West",
       "betreiber": "E.ON Drive Infrastructure",
-      "lat": 51.6578,
-      "lng": 11.8535,
+      "lat": 51.65598,
+      "lng": 11.81787,
       "ladeart": "DC",
       "maxKW": 100.0,
       "anschluesse": "2",
@@ -47,8 +47,8 @@
     {
       "name": "Aral pulse Geltestraße",
       "betreiber": "Aral pulse",
-      "lat": 51.4198,
-      "lng": 12.0541,
+      "lat": 51.47656,
+      "lng": 12.08660,
       "ladeart": "DC",
       "maxKW": 300.0,
       "anschluesse": "4",
@@ -58,8 +58,8 @@
     {
       "name": "Aral pulse Sandersdorf-Brehna",
       "betreiber": "Aral pulse",
-      "lat": 51.6231,
-      "lng": 12.2198,
+      "lat": 51.55352,
+      "lng": 12.19652,
       "ladeart": "DC",
       "maxKW": 300.0,
       "anschluesse": "6",
