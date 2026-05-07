@@ -77,5 +77,16 @@
       "adresse": "Miltitzer Straße 13",
       "stadt": "Leipzig"
     }
+    {
+      "name": "Porsche Sales & Marketplace Charging Station",
+      "betreiber": "Porsche Charging Service",
+      "lat": 51.40652,
+      "lng": 12.29681,
+      "ladeart": "DC",
+      "maxKW": 350.0,
+      "anschluesse": "12",
+      "adresse": "Porschestraße 1",
+      "stadt": "Leipzig"
+    }
   ]
 }
