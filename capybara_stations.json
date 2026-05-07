@@ -3,8 +3,8 @@
     {
       "name": "Vattenfall InCharge Aschersleben",
       "betreiber": "Vattenfall InCharge",
-      "lat": 51.7589,
-      "lng": 11.4572,
+      "lat": 51.75467,
+      "lng": 11.46437,
       "ladeart": "DC",
       "maxKW": 180.0,
       "anschluesse": "4",
@@ -36,8 +36,8 @@
     {
       "name": "EWE Go Rosenfelder Straße",
       "betreiber": "EWE Go",
-      "lat": 51.4812,
-      "lng": 11.9701,
+      "lat": 51.50134,
+      "lng": 12.03335,
       "ladeart": "DC",
       "maxKW": 150.0,
       "anschluesse": "1",
@@ -69,8 +69,8 @@
     {
       "name": "EWE Go Miltitzer Straße",
       "betreiber": "EWE Go",
-      "lat": 51.3477,
-      "lng": 12.2634,
+      "lat": 51.34769,
+      "lng": 12.26335,
       "ladeart": "DC",
       "maxKW": 300.0,
       "anschluesse": "4",
