@@ -105,6 +105,21 @@
       "hinweis": "+2,06 € Zuschlag pro Ladevorgang via Direct Pay"
     },
     {
+      "name": "Porsche Charging Service",
+      "aliases": ["Porsche", "Porsche Charging Service", "Porsche Charging Lounge", "Porsche Sales & Marketplace Charging Station"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [
+        {"name": "Charging Service AC", "preis": 59},
+        {"name": "Charging Service DC", "preis": 69},
+        {"name": "Charging Service Plus AC (16,99€/Mo)", "preis": 44},
+        {"name": "Charging Service Plus DC (16,99€/Mo)", "preis": 59},
+        {"name": "Preferred Partner (Ionity, Aral, Porsche-Zentren)", "preis": 39}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Reiner Roaming-Dienst für Porsche-Kunden, kein eigener Infrastrukturbetreiber. Ad-hoc nur über andere Anbieter (Ionity, Aral etc.). Neuwagenkäufer (Taycan, Macan EV, Cayenne/Panamera E-Hybrid) erhalten bis zu 3 Jahre Plus-Tarif gratis."
+    },
+    {
       "name": "TankE",
       "aliases": ["TankE", "TankE GmbH", "RheinEnergie"],
       "adhoc": {"ac": 49, "dc": 59, "hpc": null},
