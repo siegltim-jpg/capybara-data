@@ -106,19 +106,8 @@
       },
       {
       "name": "Porsche Charging Service",
-      "aliases": [
-        "Porsche",
-        "Porsche Charging Service",
-        "Porsche Charging Lounge",
-        "Porsche Sales & Marketplace Charging Station",
-        "Dr. Ing. h.c. F. Porsche",
-        "Porsche Leipzig"
-      ],
-      "adhoc": {
-        "ac": 59,
-        "dc": 69,
-        "hpc": 69
-      },
+      "aliases": ["Porsche", "Porsche Charging Service", "Porsche Charging Lounge", "Porsche Sales & Marketplace Charging Station", "Dr. Ing. h.c. F. Porsche", "Porsche Leipzig"],
+      "adhoc": {"ac": 59, "dc": 69, "hpc": 69},
       "tarife": [
         {"name": "Charging Service AC", "preis": 59},
         {"name": "Charging Service DC", "preis": 69},
