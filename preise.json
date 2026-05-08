@@ -625,15 +625,6 @@
   "einheit": "ct/kWh",
   "stand": "2026-01-01",
   "hinweis": "Roaming-/Herstellertarif innerhalb des VW/Elli-Umfelds. Preise variieren je Ladepunkt und Tarif."
-},
-{
-  "name": "Porsche Charging Service",
-  "aliases": ["Porsche Charging", "Porsche Charging Service", "Porsche Destination Charging"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Roaming-/Herstellertarif und Destination-Charging-Netz. Preise variieren je Ladepunkt, Tarif und Land."
-   }
+  }
   ]
 }
