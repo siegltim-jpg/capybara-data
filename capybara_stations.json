@@ -12,13 +12,15 @@
       "stadt": "Aschersleben"
     },
     {
-      "name": "Aral pulse",
-      "aliases": ["Aral", "Aral pulse", "BP Pulse", "bp pulse"],
-      "adhoc": {"ac": null, "dc": null, "hpc": 79},
-      "tarife": [],
-      "einheit": "ct/kWh",
-      "stand": "2026-05-07",
-      "hinweis": "Standort: Max-Liebermann-Straße 101, 04157 Leipzig. CCS, 150 kW, 2 Ladepunkte."
+      "name": "Aral pulse Max-Liebermann-Straße",
+      "betreiber": "Aral pulse",
+      "lat": 51.37651641344333,
+      "lng": 12.377781411411986,
+      "ladeart": "DC",
+      "maxKW": 150.0,
+      "anschluesse": "2",
+      "adresse": "Max-Liebermann-Straße 101",
+      "stadt": "Leipzig"
     }
     {
       "name": "Raststätte Plötzetal Ost",
