@@ -1,0 +1,13 @@
+{
+  "stand": "2026-05-09T09:45:00+02:00",
+  "strompreis": 12.8,
+  "erneuerbareAnteil": 61,
+  "quellen": {
+    "Solar": 46,
+    "Braunkohle": 15,
+    "Biomasse": 10,
+    "Gas": 8,
+    "Wind (Land)": 4,
+    "Hydro Run-of-River": 4
+  }
+}
