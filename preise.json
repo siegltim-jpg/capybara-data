@@ -474,9 +474,8 @@
       "einheit": "ct/kWh",
       "stand": "2026-07-01",
       "hinweis": "Reiner Roaming-Anbieter, kein eigener Infrastrukturbetreiber. Gestaffelte Preise je nach Betreiber: Stufe 1 (Ionity, Lidl, Kaufland) AC 54/DC 68 ct. Stufe 2 (Standard) AC 59/DC 79 ct. Stufe 3 (EnBW, Aral, EWE Go) AC 79/DC 96 ct. Keine Grundgebühr. 215.000+ Ladepunkte."
-    }
-    ,
-{
+    },
+  {
   "name": "Autostrom plus",
   "aliases": ["Autostrom", "Autostrom plus", "Autostrom plus GmbH", "Autostrom Nord", "Autostrom Deutschlandnetz"],
   "adhoc": {"ac": null, "dc": 69, "hpc": 69},
