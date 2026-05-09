@@ -118,8 +118,8 @@
       "einheit": "ct/kWh",
       "stand": "2026-01-01",
       "hinweis": "Reiner Roaming-Dienst für Porsche-Kunden. Preise können je nach Partnernetz abweichen."
-    }
-    {
+      },
+      {
       "name": "TankE",
       "aliases": ["TankE", "TankE GmbH", "RheinEnergie"],
       "adhoc": {"ac": 49, "dc": 59, "hpc": null},
