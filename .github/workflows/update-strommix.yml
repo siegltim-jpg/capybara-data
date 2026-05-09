@@ -1,0 +1,100 @@
+name: Update Strommix
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-strommix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Update strommix.json
+        run: |
+          python3 << 'PY'
+          import json
+          import urllib.request
+          from datetime import datetime, timezone
+
+          url = "https://api.energy-charts.info/public_power?country=de"
+
+          with urllib.request.urlopen(url, timeout=20) as response:
+              data = json.loads(response.read().decode("utf-8"))
+
+          erneuerbare = {
+              "Wind onshore", "Wind offshore", "Solar", "Hydro", "Biomass",
+              "Pumped storage generation", "Run-of-river", "Geothermal"
+          }
+
+          namen = {
+              "Wind onshore": "Wind (Land)",
+              "Wind offshore": "Wind (See)",
+              "Solar": "Solar",
+              "Hydro": "Wasser",
+              "Biomass": "Biomasse",
+              "Fossil gas": "Gas",
+              "Fossil hard coal": "Steinkohle",
+              "Fossil brown coal / lignite": "Braunkohle",
+              "Pumped storage generation": "Pumpspeicher",
+              "Hydro pumped storage": "Pumpspeicher",
+              "Run-of-river": "Hydro Run-of-River",
+              "Nuclear": "Atom",
+              "Others": "Sonstige",
+              "Cross border electricity trading": "Import/Export"
+          }
+
+          quellen = {}
+          gesamt = 0
+          erneuerbar = 0
+
+          for typ in data.get("production_types", []):
+              name = typ.get("name")
+              if name in ["Load", "Residual load"]:
+                  continue
+
+              werte = typ.get("data", [])
+              wert = None
+
+              for item in reversed(werte):
+                  if item is not None:
+                      wert = float(item)
+                      break
+
+              if wert is None or wert <= 0:
+                  continue
+
+              anzeigename = namen.get(name, name)
+              quellen[anzeigename] = quellen.get(anzeigename, 0) + wert
+              gesamt += wert
+
+              if name in erneuerbare:
+                  erneuerbar += wert
+
+          output = {
+              "stand": datetime.now(timezone.utc).isoformat(),
+              "erneuerbareAnteil": round(erneuerbar / gesamt * 100, 1) if gesamt else 0,
+              "quellen": {
+                  k: round(v / gesamt * 100, 1)
+                  for k, v in sorted(quellen.items(), key=lambda x: x[1], reverse=True)
+              }
+          }
+
+          with open("strommix.json", "w", encoding="utf-8") as f:
+              json.dump(output, f, ensure_ascii=False, indent=2)
+
+          PY
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add strommix.json
+          git commit -m "Update strommix.json" || exit 0
+          git push
