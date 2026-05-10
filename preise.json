@@ -84,27 +84,29 @@
       "hinweis": "Ad-hoc Preise"
     },
     {
-  "name": "Stadtwerke Leipzig",
-  "aliases": ["L.de", "Stadtwerke Leipzig", "Stadtwerke Leipzig SWL", "SWL"],
-  "adhoc": {"ac": 54, "dc": 64, "hpc": null},
-  "tarife": [
-    {"name": "Vorteilspreis AC", "preis": 45},
-    {"name": "Vorteilspreis DC", "preis": 55}
-  ],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Regulärer Preis",
-  "zeitgebuehren": [
-    {
-      "typ": "blockierungsgebuehr",
-      "name": "Blockierungsgebühr",
-      "aktiv": true,
-      "zeitraum": "08:00-20:00",
-      "nach_minuten": 240,
-      "preis_pro_minute": 8,
-      "einheit": "ct/min",
-      "bedingung": "solange das Fahrzeug angesteckt ist"
-    }
+      "name": "Stadtwerke Leipzig",
+      "aliases": ["L.de", "Stadtwerke Leipzig", "Stadtwerke Leipzig SWL", "SWL"],
+      "adhoc": {"ac": 54, "dc": 64, "hpc": null},
+      "tarife": [
+        {"name": "Vorteilspreis AC", "preis": 45},
+        {"name": "Vorteilspreis DC", "preis": 55}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Regulärer Preis",
+      "zeitgebuehren": [
+        {
+          "typ": "blockierungsgebuehr",
+          "name": "Blockierungsgebühr",
+          "aktiv": true,
+          "zeitraum": "08:00-20:00",
+          "nach_minuten": 240,
+          "preis_pro_minute": 8,
+          "einheit": "ct/min",
+          "bedingung": "solange das Fahrzeug angesteckt ist"
+        }
+      ]
+    },
     {
       "name": "Hamburger Energiewerke",
       "aliases": ["Hamburger Energiewerke", "HEnW", "Hamburger Energiewerke GmbH"],
@@ -113,8 +115,8 @@
       "einheit": "ct/kWh",
       "stand": "2026-01-01",
       "hinweis": "+2,06 € Zuschlag pro Ladevorgang via Direct Pay"
-      },
-      {
+    },
+    {
       "name": "Porsche Charging Service",
       "aliases": ["Porsche", "Porsche Charging Service", "Porsche Charging Lounge", "Porsche Sales & Marketplace Charging Station", "Dr. Ing. h.c. F. Porsche", "Porsche Leipzig"],
       "adhoc": {"ac": 59, "dc": 69, "hpc": 69},
@@ -128,8 +130,8 @@
       "einheit": "ct/kWh",
       "stand": "2026-01-01",
       "hinweis": "Reiner Roaming-Dienst für Porsche-Kunden. Preise können je nach Partnernetz abweichen."
-      },
-      {
+    },
+    {
       "name": "TankE",
       "aliases": ["TankE", "TankE GmbH", "RheinEnergie"],
       "adhoc": {"ac": 49, "dc": 59, "hpc": null},
@@ -485,155 +487,155 @@
       "stand": "2026-07-01",
       "hinweis": "Reiner Roaming-Anbieter, kein eigener Infrastrukturbetreiber. Gestaffelte Preise je nach Betreiber: Stufe 1 (Ionity, Lidl, Kaufland) AC 54/DC 68 ct. Stufe 2 (Standard) AC 59/DC 79 ct. Stufe 3 (EnBW, Aral, EWE Go) AC 79/DC 96 ct. Keine Grundgebühr. 215.000+ Ladepunkte."
     },
-  {
-  "name": "Autostrom plus",
-  "aliases": ["Autostrom", "Autostrom plus", "Autostrom plus GmbH", "Autostrom Nord", "Autostrom Deutschlandnetz"],
-  "adhoc": {"ac": null, "dc": 69, "hpc": 69},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Ad-hoc-Ladetarif ab 01.01.2026: 69 ct/kWh. Blockiergebühr entfällt laut Tarifupdate."
-},
-{
-  "name": "LichtBlick QuickCharge",
-  "aliases": ["LichtBlick", "LichtBlick QuickCharge", "LichtBlick eMobility", "QuickCharge"],
-  "adhoc": {"ac": null, "dc": 59, "hpc": 59},
-  "tarife": [
-    {"name": "Cariqa zeitvariabel ab", "preis": 35},
-    {"name": "Cariqa mittags", "preis": 45}
-  ],
-  "einheit": "ct/kWh",
-  "stand": "2026-04-21",
-  "hinweis": "QuickCharge-HPC/DC. Ad-hoc laut öffentlicher Angabe 59 ct/kWh. Über Cariqa zeitvariable Preise ab 35 ct/kWh."
-},
-{
-  "name": "JOLT Energy",
-  "aliases": ["JOLT", "JOLT Energy", "Jolt Energy GmbH"],
-  "adhoc": {"ac": null, "dc": 69, "hpc": 69},
-  "tarife": [
-    {"name": "Registriert ab", "preis": 45}
-  ],
-  "einheit": "ct/kWh",
-  "stand": "2026-04-01",
-  "hinweis": "Schnelllader bis ca. 320 kW. Öffentliche Preisangaben schwanken je nach JOLT-Seite zwischen 59, 69 und 79 ct/kWh; vorsichtig mit 69 ct/kWh angesetzt."
-},
-{
-  "name": "Qwello",
-  "aliases": ["Qwello", "Qwello Deutschland", "Qwello GmbH"],
-  "adhoc": {"ac": 49, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-04-01",
-  "hinweis": "AC-City-/Laternenladen. Zusätzlich 0,02 €/min, maximal 3,60 €. Nachts laut Anbieter nur bis 3 Stunden Zeitpreis."
-},
-{
-  "name": "Ubitricity",
-  "aliases": ["Ubitricity", "Shell ubitricity", "ubitricity", "Shell Recharge ubitricity"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-04-01",
-  "hinweis": "Shell-Tochter, vor allem AC-Laternen-/Straßenladen. Ladestationen sind Teil des Shell-Recharge-Netzes; Preise je nach Standort, Roaming oder Ad-hoc-Zugang."
-},
-{
-  "name": "Wirelane",
-  "aliases": ["Wirelane", "Wirelane GmbH", "Wirelane Public Charging"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Betreiber-/Abrechnungsplattform für Hotels, Parkhäuser und Destination Charging. Keine einheitlichen öffentlichen Endkundenpreise; Preis wird standortabhängig vom Betreiber festgelegt."
-},
-{
-  "name": "GP JOULE CONNECT",
-  "aliases": ["GP JOULE", "GP JOULE CONNECT", "GP Joule Connect", "CONNECT Charge"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Projektierer/Betreiber und App-/Abrechnungsanbieter. Preise werden je Ladepunkt ausgewiesen und können aus Startgebühr, kWh-Preis und Blockiergebühr bestehen."
-},
-{
-  "name": "Numbat",
-  "aliases": ["Numbat", "Numbat GmbH", "Numbat Energy"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Schnelllader mit Batteriespeicher, häufig an Handels-/Gewerbestandorten. Keine verlässlich einheitlichen öffentlichen Endkundenpreise gefunden; Preis standortabhängig."
-},
-{
-  "name": "ChargePoint",
-  "aliases": ["ChargePoint", "ChargePoint Germany", "ChargePoint Network"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Plattform/Betreiber-Netzwerk. Preise werden je Standort durch Betreiber festgelegt; keine einheitlichen Deutschlandpreise."
-},
-{
-  "name": "Maingau Autostrom",
-  "aliases": ["MAINGAU", "Maingau", "MAINGAU Autostrom", "EinfachStromLaden"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [
-    {"name": "Normalpreis AC", "preis": 62},
-    {"name": "Normalpreis DC niedrig", "preis": 62},
-    {"name": "Normalpreis DC standard", "preis": 72},
-    {"name": "Normalpreis DC hoch", "preis": 82},
-    {"name": "Vorteilspreis AC", "preis": 52},
-    {"name": "Vorteilspreis DC niedrig", "preis": 52},
-    {"name": "Vorteilspreis DC standard", "preis": 62}
-  ],
-  "einheit": "ct/kWh",
-  "stand": "2026-04-01",
-  "hinweis": "Roaming-/Ladetarif, kein eigener Infrastrukturbetreiber. DC-Preise nach Betreibergruppe; Hochpreis u.a. bei Aral, E.ON Drive, EnBW, EWE Go, LichtBlick."
-},
-{
-  "name": "Octopus Electroverse",
-  "aliases": ["Octopus", "Octopus Electroverse", "Electroverse", "Octopus Energy Electroverse"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Roaming-/Ladekartenanbieter. Keine einheitlichen Festpreise; Preise werden in der Electroverse-App je Ladepunkt angezeigt."
-},
-{
-  "name": "Elli",
-  "aliases": ["Elli", "VW Elli", "Volkswagen Group Charging", "We Charge", "Elli Drive", "Elli Drive Highway"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [
-    {"name": "IONITY Boost", "preis": 49}
-  ],
-  "einheit": "ct/kWh",
-  "stand": "2026-04-01",
-  "hinweis": "Roaming-/Herstellertarif der Volkswagen Group Charging. AC/DC-Standardpreise variieren je Ladepunkt; IONITY Boost 49 ct/kWh bei 5,99 €/Monat."
-},
-{
-  "name": "BMW Charging",
-  "aliases": ["BMW Charging", "My BMW Charging", "BMW Charging Card", "Digital Charging Solutions"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-04-01",
-  "hinweis": "Roaming-/Herstellertarif. Flexible Preise je Ladepunkt; konkrete Preise werden in der My BMW App bzw. auf der BMW-Charging-Website angezeigt."
-},
-{
-  "name": "Mercedes me Charge",
-  "aliases": ["Mercedes me Charge", "Mercedes-Benz Charging", "Mercedes me", "Mercedes Charging"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Roaming-/Herstellertarif. Keine eigenen Ladepreise als CPO; Preise variieren je Tarif, Land und Ladepunkt."
-},
-{
-  "name": "Audi charging",
-  "aliases": ["Audi charging", "Audi Charging Service", "Audi charging service"],
-  "adhoc": {"ac": null, "dc": null, "hpc": null},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-01-01",
-  "hinweis": "Roaming-/Herstellertarif innerhalb des VW/Elli-Umfelds. Preise variieren je Ladepunkt und Tarif."
-  }
+    {
+      "name": "Autostrom plus",
+      "aliases": ["Autostrom", "Autostrom plus", "Autostrom plus GmbH", "Autostrom Nord", "Autostrom Deutschlandnetz"],
+      "adhoc": {"ac": null, "dc": 69, "hpc": 69},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Ad-hoc-Ladetarif ab 01.01.2026: 69 ct/kWh. Blockiergebühr entfällt laut Tarifupdate."
+    },
+    {
+      "name": "LichtBlick QuickCharge",
+      "aliases": ["LichtBlick", "LichtBlick QuickCharge", "LichtBlick eMobility", "QuickCharge"],
+      "adhoc": {"ac": null, "dc": 59, "hpc": 59},
+      "tarife": [
+        {"name": "Cariqa zeitvariabel ab", "preis": 35},
+        {"name": "Cariqa mittags", "preis": 45}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-21",
+      "hinweis": "QuickCharge-HPC/DC. Ad-hoc laut öffentlicher Angabe 59 ct/kWh. Über Cariqa zeitvariable Preise ab 35 ct/kWh."
+    },
+    {
+      "name": "JOLT Energy",
+      "aliases": ["JOLT", "JOLT Energy", "Jolt Energy GmbH"],
+      "adhoc": {"ac": null, "dc": 69, "hpc": 69},
+      "tarife": [
+        {"name": "Registriert ab", "preis": 45}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Schnelllader bis ca. 320 kW. Öffentliche Preisangaben schwanken je nach JOLT-Seite zwischen 59, 69 und 79 ct/kWh; vorsichtig mit 69 ct/kWh angesetzt."
+    },
+    {
+      "name": "Qwello",
+      "aliases": ["Qwello", "Qwello Deutschland", "Qwello GmbH"],
+      "adhoc": {"ac": 49, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "AC-City-/Laternenladen. Zusätzlich 0,02 €/min, maximal 3,60 €. Nachts laut Anbieter nur bis 3 Stunden Zeitpreis."
+    },
+    {
+      "name": "Ubitricity",
+      "aliases": ["Ubitricity", "Shell ubitricity", "ubitricity", "Shell Recharge ubitricity"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Shell-Tochter, vor allem AC-Laternen-/Straßenladen. Ladestationen sind Teil des Shell-Recharge-Netzes; Preise je nach Standort, Roaming oder Ad-hoc-Zugang."
+    },
+    {
+      "name": "Wirelane",
+      "aliases": ["Wirelane", "Wirelane GmbH", "Wirelane Public Charging"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Betreiber-/Abrechnungsplattform für Hotels, Parkhäuser und Destination Charging. Keine einheitlichen öffentlichen Endkundenpreise; Preis wird standortabhängig vom Betreiber festgelegt."
+    },
+    {
+      "name": "GP JOULE CONNECT",
+      "aliases": ["GP JOULE", "GP JOULE CONNECT", "GP Joule Connect", "CONNECT Charge"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Projektierer/Betreiber und App-/Abrechnungsanbieter. Preise werden je Ladepunkt ausgewiesen und können aus Startgebühr, kWh-Preis und Blockiergebühr bestehen."
+    },
+    {
+      "name": "Numbat",
+      "aliases": ["Numbat", "Numbat GmbH", "Numbat Energy"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Schnelllader mit Batteriespeicher, häufig an Handels-/Gewerbestandorten. Keine verlässlich einheitlichen öffentlichen Endkundenpreise gefunden; Preis standortabhängig."
+    },
+    {
+      "name": "ChargePoint",
+      "aliases": ["ChargePoint", "ChargePoint Germany", "ChargePoint Network"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Plattform/Betreiber-Netzwerk. Preise werden je Standort durch Betreiber festgelegt; keine einheitlichen Deutschlandpreise."
+    },
+    {
+      "name": "Maingau Autostrom",
+      "aliases": ["MAINGAU", "Maingau", "MAINGAU Autostrom", "EinfachStromLaden"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [
+        {"name": "Normalpreis AC", "preis": 62},
+        {"name": "Normalpreis DC niedrig", "preis": 62},
+        {"name": "Normalpreis DC standard", "preis": 72},
+        {"name": "Normalpreis DC hoch", "preis": 82},
+        {"name": "Vorteilspreis AC", "preis": 52},
+        {"name": "Vorteilspreis DC niedrig", "preis": 52},
+        {"name": "Vorteilspreis DC standard", "preis": 62}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Roaming-/Ladetarif, kein eigener Infrastrukturbetreiber. DC-Preise nach Betreibergruppe; Hochpreis u.a. bei Aral, E.ON Drive, EnBW, EWE Go, LichtBlick."
+    },
+    {
+      "name": "Octopus Electroverse",
+      "aliases": ["Octopus", "Octopus Electroverse", "Electroverse", "Octopus Energy Electroverse"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Roaming-/Ladekartenanbieter. Keine einheitlichen Festpreise; Preise werden in der Electroverse-App je Ladepunkt angezeigt."
+    },
+    {
+      "name": "Elli",
+      "aliases": ["Elli", "VW Elli", "Volkswagen Group Charging", "We Charge", "Elli Drive", "Elli Drive Highway"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [
+        {"name": "IONITY Boost", "preis": 49}
+      ],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Roaming-/Herstellertarif der Volkswagen Group Charging. AC/DC-Standardpreise variieren je Ladepunkt; IONITY Boost 49 ct/kWh bei 5,99 €/Monat."
+    },
+    {
+      "name": "BMW Charging",
+      "aliases": ["BMW Charging", "My BMW Charging", "BMW Charging Card", "Digital Charging Solutions"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-04-01",
+      "hinweis": "Roaming-/Herstellertarif. Flexible Preise je Ladepunkt; konkrete Preise werden in der My BMW App bzw. auf der BMW-Charging-Website angezeigt."
+    },
+    {
+      "name": "Mercedes me Charge",
+      "aliases": ["Mercedes me Charge", "Mercedes-Benz Charging", "Mercedes me", "Mercedes Charging"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Roaming-/Herstellertarif. Keine eigenen Ladepreise als CPO; Preise variieren je Tarif, Land und Ladepunkt."
+    },
+    {
+      "name": "Audi charging",
+      "aliases": ["Audi charging", "Audi Charging Service", "Audi charging service"],
+      "adhoc": {"ac": null, "dc": null, "hpc": null},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-01-01",
+      "hinweis": "Roaming-/Herstellertarif innerhalb des VW/Elli-Umfelds. Preise variieren je Ladepunkt und Tarif."
+    }
   ]
 }
