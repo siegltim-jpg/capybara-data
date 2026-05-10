@@ -636,7 +636,7 @@
       "einheit": "ct/kWh",
       "stand": "2026-01-01",
       "hinweis": "Roaming-/Herstellertarif innerhalb des VW/Elli-Umfelds. Preise variieren je Ladepunkt und Tarif."
-    }
+    },
     {
   "name": "ENTEGA",
   "aliases": ["ENTEGA", "ENTEGA Plus", "ENTEGA Plus GmbH"],
