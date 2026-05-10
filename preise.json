@@ -84,27 +84,27 @@
       "hinweis": "Ad-hoc Preise"
     },
     {
-      "name": "Stadtwerke Leipzig",
-      "aliases": ["L.de", "Stadtwerke Leipzig", "Stadtwerke Leipzig SWL", "SWL"],
-      "adhoc": {"ac": 54, "dc": 64, "hpc": null},
-      "tarife": [
-        {"name": "Vorteilspreis AC", "preis": 45},
-        {"name": "Vorteilspreis DC", "preis": 55}
-      ],
-      "einheit": "ct/kWh",
-      "stand": "2026-01-01",
-      "hinweis": "Regulärer Preis"
-      "zeitgebuehren": [
-  {
-    "typ": "blockierungsgebuehr",
-    "name": "Blockierungsgebühr",
-    "aktiv": true,
-    "zeitraum": "08:00-20:00",
-    "nach_minuten": 240,
-    "preis_pro_minute": 8,
-    "einheit": "ct/min",
-    "bedingung": "solange das Fahrzeug angesteckt ist"
-    },
+  "name": "Stadtwerke Leipzig",
+  "aliases": ["L.de", "Stadtwerke Leipzig", "Stadtwerke Leipzig SWL", "SWL"],
+  "adhoc": {"ac": 54, "dc": 64, "hpc": null},
+  "tarife": [
+    {"name": "Vorteilspreis AC", "preis": 45},
+    {"name": "Vorteilspreis DC", "preis": 55}
+  ],
+  "einheit": "ct/kWh",
+  "stand": "2026-01-01",
+  "hinweis": "Regulärer Preis",
+  "zeitgebuehren": [
+    {
+      "typ": "blockierungsgebuehr",
+      "name": "Blockierungsgebühr",
+      "aktiv": true,
+      "zeitraum": "08:00-20:00",
+      "nach_minuten": 240,
+      "preis_pro_minute": 8,
+      "einheit": "ct/min",
+      "bedingung": "solange das Fahrzeug angesteckt ist"
+    }
     {
       "name": "Hamburger Energiewerke",
       "aliases": ["Hamburger Energiewerke", "HEnW", "Hamburger Energiewerke GmbH"],
