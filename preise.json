@@ -638,27 +638,24 @@
       "hinweis": "Roaming-/Herstellertarif innerhalb des VW/Elli-Umfelds. Preise variieren je Ladepunkt und Tarif."
     },
     {
-  "name": "ENTEGA",
-  "aliases": ["ENTEGA", "ENTEGA Plus", "ENTEGA Plus GmbH"],
-  "adhoc": {"ac": 49, "dc": 55, "hpc": 55},
-  "tarife": [],
-  "einheit": "ct/kWh",
-  "stand": "2026-05-10",
-  "hinweis": [
-    "Eigene ENTEGA-Ladesäulen:",
-    "AC 49 ct/kWh",
-    "DC/HPC 55 ct/kWh",
-    "Keine monatliche Grundgebühr.",
-    "Einmalig 10 € Aktivierungsgebühr für die Ladekarte.",
-    "Roamingpreise können je Ladepunkt abweichen."
-  ],
-  "blockiergebuehr": {
-    "preis": 5,
-    "einheit": "ct/min",
-    "ab": "nach 4 Stunden Standzeit",
-    "hinweis": [
-      "Gilt laut ENTEGA an eigenen Ladesäulen.",
-      "Roaming kann abweichen."
-    ]
-  }
+      "name": "ENTEGA",
+      "aliases": ["ENTEGA", "ENTEGA Plus", "ENTEGA Plus GmbH"],
+      "adhoc": {"ac": 49, "dc": 55, "hpc": 55},
+      "tarife": [],
+      "einheit": "ct/kWh",
+      "stand": "2026-05-10",
+      "hinweis": "Eigene Ladesäulen: AC 49 ct, DC/HPC 55 ct. Keine Grundgebühr. Einmalig 10 € Aktivierungsgebühr. Roamingpreise können abweichen.",
+      "zeitgebuehren": [
+        {
+          "typ": "blockierungsgebuehr",
+          "name": "Blockierungsgebühr",
+          "aktiv": true,
+          "nach_minuten": 240,
+          "preis_pro_minute": 5,
+          "einheit": "ct/min",
+          "bedingung": "nach 4 Stunden Standzeit, gilt an eigenen Ladesäulen"
+        }
+      ]
+    }
+  ]
 }
