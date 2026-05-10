@@ -94,6 +94,16 @@
       "einheit": "ct/kWh",
       "stand": "2026-01-01",
       "hinweis": "Regulärer Preis"
+      "zeitgebuehren": [
+  {
+    "typ": "blockierungsgebuehr",
+    "name": "Blockierungsgebühr",
+    "aktiv": true,
+    "zeitraum": "08:00-20:00",
+    "nach_minuten": 240,
+    "preis_pro_minute": 8,
+    "einheit": "ct/min",
+    "bedingung": "solange das Fahrzeug angesteckt ist"
     },
     {
       "name": "Hamburger Energiewerke",
