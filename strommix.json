@@ -1,23 +1,23 @@
 {
-  "stand": "2026-05-17T14:23:00.917026+00:00",
-  "erneuerbareAnteil": 82.5,
+  "stand": "2026-05-17T15:34:33.564128+00:00",
+  "erneuerbareAnteil": 77.2,
   "quellen": {
-    "Solar": 58.2,
-    "Wind (Land)": 11.7,
-    "Biomasse": 7.5,
-    "Braunkohle": 6.1,
-    "Wind (See)": 5.1,
-    "Gas": 3.5,
-    "Hydro Run-of-River": 2.7,
-    "Waste": 2.1,
-    "Fossil coal-derived gas": 1.1,
-    "Steinkohle": 0.9,
+    "Solar": 52.7,
+    "Wind (Land)": 11.1,
+    "Biomasse": 8.5,
+    "Braunkohle": 8.0,
+    "Wind (See)": 4.8,
+    "Gas": 4.0,
+    "Hydro Run-of-River": 3.2,
+    "Steinkohle": 2.7,
+    "Waste": 2.4,
+    "Fossil coal-derived gas": 1.3,
     "Sonstige": 0.3,
-    "Renewable share of load": 0.2,
+    "Pumpspeicher": 0.3,
     "Fossil oil": 0.2,
+    "Renewable share of load": 0.2,
     "Renewable share of generation": 0.2,
-    "Geothermal": 0.0,
     "Hydro water reservoir": 0.0,
-    "Pumpspeicher": 0.0
+    "Geothermal": 0.0
   }
 }
